@@ -150,7 +150,6 @@ EOF
     cat <<EOF
 socks pass {
     from: 0/0 to: 0/0
-    socksmethod: pam.username
     log: connect disconnect
 }
 socks block {
